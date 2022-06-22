@@ -10,7 +10,7 @@ const Main = (props) => {
 
     return (
         <div>
-            {/* <ProductForm product = {product} setProduct = {setProduct} /> */}
+            <ProductForm product = {product} setProduct = {setProduct} />
             <hr/>
             <ProductList product = {product} setProduct = {setProduct} />
         </div>
